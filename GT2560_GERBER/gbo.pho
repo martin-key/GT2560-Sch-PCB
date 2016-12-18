@@ -1,0 +1,88 @@
+*
+*
+G04 PADS 9.5 Build Number: 522968 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "Ge_mega2560_Mainbaord.p"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD010C,0.001*%
+%ADD031C,0.00031*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name Ge_mega2560_Mainbaord.p - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name Ge_mega2560_Mainbaord.p - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name Ge_mega2560_Mainbaord.p - circuitry*
+%LPD*%
+*
+G54D10*
+G54D31*
+G01X100009Y409997D02*
+Y99997D01*
+X522602*
+Y409997*
+X100009*
+X485626Y114331D02*
+G75*
+G03X485626I-6299J0D01*
+G01X119894Y396571D02*
+G03X119894I-6300J0D01*
+G01X485626D02*
+G03X485626I-6299J0D01*
+G01X119894Y114331D02*
+G03X119894I-6300J0D01*
+G74*
+G01X0Y0D02*
+M02*
